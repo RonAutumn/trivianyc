@@ -1,0 +1,24 @@
+---
+import { ResultsScreen } from '../components/ResultsScreen';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NYC Subway Quick Trivia - Results</title>
+  <style is:global>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    body {
+      @apply bg-gray-900 min-h-screen;
+    }
+  </style>
+</head>
+<body>
+  <ResultsScreen client:load />
+</body>
+</html>
